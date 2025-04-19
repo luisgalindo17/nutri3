@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nutrición Infantil Tocatlán</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #f0f8ff;
+        }
+
+        header {
+            background: url('https://tetlax.org.mx/wp-content/uploads/2023/06/0531-El-Tribunal-Va-a-la-Escuela-Tocatlan-1.jpg') no-repeat center center;
+            background-size: cover;
+            color: rgb(15, 15, 15);
+            padding: 60px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 3em;
+            font-weight: bold;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 20px;
+            background-color: #db1f1f;
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #333;
+            color: #fff;
+        }
+
+        /* Estilos IMC */
+        .resultado {
+            font-weight: bold;
+            font-size: 18px;
+            margin-top: 15px;
+        }
+
+        .bajo {
+            color: red;
+        }
+
+        .saludable {
+            color: green;
+        }
+
+        .alto {
+            color: orange;
+        }
+
+        #imagenIMC img {
+            width: 150px;
+            margin-top: 10px;
+        }
+
+        #recomendacionIMC {
+            font-style: italic;
+            margin-top: 10px;
+            color: #555;
+            max-width: 400px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* Estilo de la sección de imágenes */
+        .galeria-img {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .galeria-img img {
+            width: 30%;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>PÁGINA WEB DE NUTRICIÓN EN NIÑOS DE 1 - 4 AÑOS - TOCATLÁN</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#directorio">Directorio</a></li>
+            <li><a href="#galeria">Galería</a></li>
+            <li><a href="#videos">Videos</a></li>
+            <li><a href="#consejos">Consejos</a></li>
+            <li><a href="#recetas">Recetas</a></li>
+            <li><a href="#imc">IMC</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="directorio">
+            <h2>Directorio</h2>
+            <ul>
+                <li><a href="https://www.ejemplo1.com">Vicente Avendaño Peralta</a></li>
+                <li><a href="https://www.ejemplo2.com">Claudia Galván Aguilar</a></li>
+                <li><a href="https://www.ejemplo3.com">Luis Miguel Villa Marín</a></li>
+            </ul>
+        </section>
+
+        <section id="galeria">
+            <h2>Galería de Imágenes</h2>
+            <div class="galeria-img">
+                <img src="https://via.placeholder.com/400" alt="Imagen 1">
+                <img src="https://via.placeholder.com/400" alt="Imagen 2">
+                <img src="https://via.placeholder.com/400" alt="Imagen 3">
+            </div>
+        </section>
+
+        <section id="videos">
+            <h2>Videos</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                title="Video de ejemplo" frameborder="0" allowfullscreen></iframe>
+        </section>
+
+        <section id="consejos">
+            <h2>Consejos de Nutrición</h2>
+            <ul>
+                <li>Incluye frutas y verduras en cada comida.</li>
+                <li>Ofrece proteínas magras como pollo o legumbres.</li>
+                <li>Evita alimentos con azúcares añadidos y refrescos.</li>
+                <li>Asegura una buena hidratación con agua.</li>
+            </ul>
+        </section>
+
+        <section id="recetas">
+            <h2>Recetas Saludables</h2>
+            <article>
+                <h3>Batido de Plátano y Espinaca</h3>
+                <ul>
+                    <li>1 plátano maduro</li>
+                    <li>1 taza de espinaca fresca</li>
+                    <li>1/2 taza de yogur natural</li>
+                    <li>1/2 taza de leche o bebida vegetal</li>
+                </ul>
+                <p>Licuar todo hasta obtener una mezcla suave. Servir frío.</p>
+            </article>
+            <article>
+                <h3>Tortitas de Avena y Manzana</h3>
+                <ul>
+                    <li>1 taza de avena</li>
+                    <li>1 manzana rallada</li>
+                    <li>1 huevo</li>
+                    <li>Canela al gusto</li>
+                </ul>
+                <p>Mezclar y cocinar en sartén caliente hasta dorar.</p>
+            </article>
+        </section>
+
+        <section id="imc">
+            <h2>Calculadora de IMC Infantil (1 a 4 años)</h2>
+            <p>Introduce el peso, la estatura y la edad del niño o niña para calcular su IMC:</p>
+            <input type="number" id="edad" placeholder="Edad en años (1 a 4)">
+            <input type="number" id="peso" placeholder="Peso en kg">
+            <input type="number" id="altura" placeholder="Altura en metros">
+            <br><br>
+            <button onclick="calcularIMC()">Calcular IMC</button>
+            <p id="resultadoIMC" class="resultado"></p>
+            <div id="imagenIMC"></div>
+            <p id="recomendacionIMC"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Página de Nutrición Tocatlán. Todos los derechos reservados.</p>
+    </footer>
+
+    <script>
+        function calcularIMC() {
+            const edad = parseInt(document.getElementById("edad").value);
+            const peso = parseFloat(document.getElementById("peso").value);
+            const altura = parseFloat(document.getElementById("altura").value);
+            const resultado = document.getElementById("resultadoIMC");
+            const imagen = document.getElementById("imagenIMC");
+            const recomendacion = document.getElementById("recomendacionIMC");
+
+            resultado.className = "resultado";
+            imagen.innerHTML = "";
+            recomendacion.textContent = "";
+
+            if (!edad || edad < 1 || edad > 4 || !peso || !altura || altura === 0) {
+                resultado.textContent = "Por favor, introduce valores válidos: edad entre 1 y 4 años, peso y altura.";
+                return;
+            }
+
+            const imc = peso / (altura * altura);
+            let mensaje = `El IMC es: ${imc.toFixed(2)}. `;
+            let clase = "";
+            let imgSrc = "";
+            let consejo = "";
+
+            let rango = { bajo: 0, alto: 0 };
+            switch (edad) {
+                case 1: rango = { bajo: 14.5, alto: 18.0 }; break;
+                case 2: rango = { bajo: 14.0, alto: 17.5 }; break;
+                case 3: rango = { bajo: 13.8, alto: 17.0 }; break;
+                case 4: rango = { bajo: 13.5, alto: 16.5 }; break;
+            }
+
+            if (imc < rango.bajo) {
+                mensaje += "🔴 IMC por debajo del rango saludable.";
+                clase = "bajo";
+                imgSrc = "https://cdn-icons-png.flaticon.com/512/2920/2920063.png";
+                consejo = "Tu niño/a puede necesitar más energía en su dieta. Añade snacks saludables como aguacate, plátano, huevo y consulta a un profesional de salud.";
+            } else if (imc > rango.alto) {
+                mensaje += "🔴 IMC por encima del rango saludable.";
+                clase = "alto";
+                imgSrc = "https://cdn-icons-png.flaticon.com/512/2920/2920073.png";
+                consejo = "Es momento de cuidar porciones y evitar alimentos procesados. Añade frutas y verduras, fomenta juegos activos, y consulta con el pediatra.";
+            } else {
+                mensaje += "🟢 IMC dentro del rango saludable. ¡Muy bien!";
+                clase = "saludable";
+                imgSrc = "https://cdn-icons-png.flaticon.com/512/2920/2920054.png";
+                consejo = "Tu niño/a está en un buen estado nutricional. Continúa ofreciendo comidas equilibradas, agua y juego diario.";
+            }
+
+            resultado.textContent = mensaje;
+            resultado.classList.add(clase);
+            imagen.innerHTML = `<img src="${imgSrc}" alt="Resultado IMC">`;
+            recomendacion.textContent = consejo;
+        }
+    </script>
+
+</body>
+</html>
