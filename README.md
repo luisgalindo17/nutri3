@@ -235,15 +235,15 @@
       <div class="galeria-img">
         <div class="img-item">
           <img src="https://japaclip.com/es/files/woman-before-after-weight-loss.png" alt="Antes y después de pérdida de peso">
-          <p class="img-texto">Pérdida visible de peso corporal</p>
+          <p class="img-texto">Pérdida de peso corporal</p>
         </div>
         <div class="img-item">
           <img src="https://images.freeimages.com/clg/istock/previews/9981/99812107-little-boy-having-stomach-ache.jpg?fmt=webp&h=350" alt="Dolor abdominal">
-          <p class="img-texto">Dolor frecuente de estómago o malestar digestivo</p>
+          <p class="img-texto">problemas digestivos</p>
         </div>
         <div class="img-item">
           <img src="https://media.istockphoto.com/id/1396923079/es/vector/ni%C3%B1a-sinti%C3%A9ndose-sola-apat%C3%ADa-depresi%C3%B3n-ni%C3%B1o-jugando-solo-con-juguete-de-oso.jpg?s=1024x1024&w=is&k=20&c=R1PQ02RVMk64R3nT5W7hK8tV5Ta-8XPFchGjKzwT6i0=" alt="Niña apática con peluche">
-          <p class="img-texto">Apatía, aislamiento o falta de energía</p>
+          <p class="img-texto">problemas psicológicos</p>
         </div>
       </div>
     </section>
